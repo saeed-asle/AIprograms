@@ -159,3 +159,4 @@ for n , i in enumerate(range(10)) :
     plt.imshow(X_pred_orgnal[i])
     plt.axis('off')
     plt.title(getcode((predicted_labels[i])))
+plt.show()
